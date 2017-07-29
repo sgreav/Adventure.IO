@@ -1,0 +1,28 @@
+{
+  "name": "adventure.io",
+  "version": "0.0.1",
+  "description": "A JavaScript library for creating Adventure Games",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify js/index.js -o bundle.js && http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgreav/Adventure.IO.git"
+  },
+  "keywords": [
+    "adventure",
+    "game"
+  ],
+  "author": "Sebastian Greaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgreav/Adventure.IO/issues"
+  },
+  "homepage": "https://github.com/sgreav/Adventure.IO#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0"
+  }
+}
